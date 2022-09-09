@@ -1,0 +1,14 @@
+#!/bin/bash
+#include<stdio.h>
+/**
+ * main - prints the string in the put function
+ *
+ * Description: using the main function
+ * this program prints "Programming is like building a multi-lingualpuzzle"
+ * then return 0
+ */
+int main() 	
+	{
+	  puts("Programming is like building a multilingual puzzle");
+	  return (0);
+	}	  
