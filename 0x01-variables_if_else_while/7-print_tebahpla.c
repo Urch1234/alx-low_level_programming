@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - Print lowercase alphabets in reverse 
- * Description: Using main function- apply putchar function print lowercase alphabets in reverse form, followed by a new line
+ * main - Print lowercase alphabets in revere
+ * Description: Using main function
+ * print using char
  * Return: 0
  */
 int main(void)
