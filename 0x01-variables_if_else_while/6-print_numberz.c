@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+ * main - Print all single digit numbers of base 10
+ * Description: Using main function
+ * Print all single digit numbers of base 10 starting from 0, followed by a new line, without using any variable of the type char
+ * Return: 0
+ */
+int main(void)
+{
+int i;

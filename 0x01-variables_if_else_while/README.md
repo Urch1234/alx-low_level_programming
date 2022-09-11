@@ -4,3 +4,5 @@
 3. Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 4. Write a program that prints the alphabet in lowercase letters except q and e.
 5. Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+6. Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line. without using any variable of the type char.
+7. Write a program that prints the lowercase alphabet in reverse, followed by a new line.
