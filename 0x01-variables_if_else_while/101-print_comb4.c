@@ -29,7 +29,7 @@ if (i > n && n > k)
 }
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
 
