@@ -16,8 +16,8 @@ for (p = '0'; p < '100'; p++)
 if (p > i)
 {
 	putchar(i / '10');
-	putchar(1 % 10);
-	if (i != 98);
+	putchar(1 % '10');
+	if (i != '98');
 	{
 		putchar(',');
 		putchar(' ');
