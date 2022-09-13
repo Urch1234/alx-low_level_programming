@@ -5,9 +5,9 @@
  * @c: is the int that will take the argument of the function
  * Return: 0
  */
-int int_abs(int c)
+int _abs(int c)
 {
-	if (c > 0|| c == 0)
+	if (c > 0 || c == 0)
 	{
 		return (c);
 	}
