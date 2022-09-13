@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * int _isalpha(int c) - returns i if c is a letter, lowercase or uppercase
+ * Return: 0 otherwise
+ */
+int _isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && <= 'Z'))
+	{
+	return (1);
+	}
+	else
+	return (0);
+}
