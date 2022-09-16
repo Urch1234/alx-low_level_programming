@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
+* fizz_buzz - program that prints either number or fizz or buzz or fizzBuzz
 *
 *
 *Return: returns 0
 */
 
-int main(void)
+void fizz_buzz(void)
 {
 	int num = 1;
 
