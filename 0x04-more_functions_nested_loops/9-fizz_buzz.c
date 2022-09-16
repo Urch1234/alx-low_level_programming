@@ -2,14 +2,12 @@
 
 /**
 * main - program that prints either number or fizz or buzz or fizzBuzz
-*
-*
-* Return: returns 0
+*Return: returns 0
 */
 
 int main(void)
 {
-	int num = 1;
+	int num = 0;
 
 	while (num++ < 100)
 	{
