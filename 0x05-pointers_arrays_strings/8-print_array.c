@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
-void print_array(int *a, int 0)
+void print_array(int *a, int n)
 {
 	int arr;
 
