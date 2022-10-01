@@ -24,6 +24,10 @@ int main(int argc, char *argv[])
 			for (b = 0; str[b] != '\0'; b++)
 			{
 				if (str[b] < 48 || str[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 		}
 	}
