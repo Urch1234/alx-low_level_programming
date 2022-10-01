@@ -7,7 +7,8 @@
  * Return: always 0.
  */
 int main(int args, int *argv[])
-{printf("%s\n", args - 1);
+{
+	printf("%s\n", args - 1);
 	(void)argv;
 	return (0);
 }
