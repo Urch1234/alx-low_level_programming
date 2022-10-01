@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int index, mult;
 
-	mult = i;
+	mult = 1;
 	if (argc < 3)
 	{
 		print("Error\n");
