@@ -75,7 +75,7 @@ char **strtow(char *str)
 				{
 					while (tmp < size)
 					{
-						split[j][temp] = str[(i - size) + temp];
+						split[j][temp] = str[(i - size) + tmp];
 						temp++;
 					}
 					split[j][temp] = '\0';
@@ -92,7 +92,7 @@ char **strtow(char *str)
 			}
 		}
 		split[words] = NULL;
-		return (split)
+		return (split);
 	}
 	else
 		return (NULL);
