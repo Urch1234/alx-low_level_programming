@@ -61,7 +61,7 @@ char **strtow(char *str)
 
 	if (words == 0)
 		return (NULL);
-	split = (char **)malloc(sizeof(char *) * (word + 1));
+	split = (char **)malloc(sizeof(char *) * (words + 1));
 	if (split != NULL)
 	{
 		for (i = 0; i <= len(str) && words; i++)
@@ -73,7 +73,7 @@ char **strtow(char *str)
 				split[j] = (char *)malloc(sizeof(char) * size + 1);
 				if (split[j] != NULL)
 				{
-					while (temp < size)
+					while (tmp < size)
 					{
 						split[j][temp] = str[(i - size) + temp];
 						temp++;
@@ -86,14 +86,14 @@ char **strtow(char *str)
 				{
 					while (j-- >= 0)
 						free(split[j]);
-					free(split)
+					free(split);
 						return (NULL);
 				}
 			}
 		}
 		split[words] = NULL;
-		return (split);
+		return (split)
 	}
 	else
 		return (NULL);
-
+}
