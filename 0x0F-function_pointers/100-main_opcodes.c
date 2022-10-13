@@ -3,11 +3,11 @@
 
 /**
  * main - print opcodes of given machine
- * @agrc: number of arguments.
+ * @argc: number of arguments.
  * @argv: argument vector
  * Return: 0.
  */
-int main(int argc, char *agrv[])
+int main(int argc, char *argv[])
 {
 	int count, bytes;
 
@@ -21,10 +21,10 @@ int main(int argc, char *agrv[])
 	if (bytes < 0)
 	{
 		printf("Error\n");
-		exit (2);
+		exit(2);
 	}
 
-	foor (count = 0; count < bytes; count++)
+	for (count = 0; count < bytes; count++)
 	{
 		printf("%02hhx", *((char *)main + count));
 		if (count < bytes - 1)
