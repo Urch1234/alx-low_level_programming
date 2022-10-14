@@ -8,7 +8,6 @@
  * @n: number of strings.
  * Return: void.
  */
-
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
@@ -16,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list strings;
 
 	if (separator == NULL)
-		separator = " ";
+		separator = "";
 
 	va_start(strings, n);
 
