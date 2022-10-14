@@ -13,16 +13,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *s;
-	va_list str;
+	va_list strings;
 
 	if (separator == NULL)
 		separator = "";
 
-	va_start(str, n);
+	va_start(strings, n);
 
 	for (i = 0; i < n, i++)
 	{
-		s = va_arg(str, char *);
+		s = va_arg(strings, char *);
 
 		if (s == NULL)
 			s = "(nil)";
@@ -33,5 +33,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
-	va_end(str);
+	va_end(strings);
 }
