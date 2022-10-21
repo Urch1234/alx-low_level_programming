@@ -1,3 +1,4 @@
+#ifndef _LISTS_
 #define _LISTS_
 
 #include <stdio.h>
@@ -6,7 +7,7 @@
 
 /**
  * struct list_s - singly linked list
- * @str: string - (malloced string)
+ * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
  *
