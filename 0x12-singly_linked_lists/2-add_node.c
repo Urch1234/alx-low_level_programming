@@ -20,7 +20,8 @@ list_t *add_node(list_t **head, const char *str)
 
 	for (n = 0; str[n]; n++)
 		;
-	new _node->next = n;
+
+	new_node->next = n;
 	new_node->next = *head;
 	*head = new_node;
 
