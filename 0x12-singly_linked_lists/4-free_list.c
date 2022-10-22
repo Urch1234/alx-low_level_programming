@@ -7,8 +7,7 @@
  * @str: string to store in the list.
  * Return: address of the head
  */
-
-list_t *add_node_end(list_t **head, const char *str)
+void free_list(list_t *head)
 {
 	list_t *new_node, *current_node;
 	size_t n;
