@@ -1,7 +1,7 @@
-#include "list.h"
+#include "lists.h"
 
 /**
- * add_node_end - adds a new node at the end
+ * free_list - frees a list.
  * of a list_t list
  * @head: head of the linked list.
  * Return: no return
