@@ -5,8 +5,8 @@
  * Return: nothing
  */
 
-void _attribute_((constructor))first()
+void _attribute_((constructor)) first()
 {
 	printf("You're beat! and yet, you must allow");
-	printf(",\nI love my house upon my back!\n");
+	printf(",\nI bore my house upon my back!\n");
 }
