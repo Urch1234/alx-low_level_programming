@@ -3,6 +3,7 @@
 /**
  * get_nodeint_at_index - finds a given node on a linked list
  * @index: index of the node to find
+ * @head: head of the list
  * Return: pointer to the desired node, or
  * NUll - if the node does not exist
  */
