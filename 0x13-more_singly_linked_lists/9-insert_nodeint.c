@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - adds a new node to a linked list at a given position
+ * insert_nodeint_at_index - adds a new node to a
+ * linked list at a given position
  * @head: pointer ro rhe haef if the list
  * @idx: index of the list where new line will be added
  * @n: value of the new node to be added
