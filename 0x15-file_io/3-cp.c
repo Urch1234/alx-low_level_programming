@@ -12,7 +12,7 @@ void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error:can't read fro file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error:can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if (file_to == -1)
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	file_from = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_CREATE, | O_WRONG | O_TRUNC | O_APPEND, 0664);
+	file_to = open(argv[2], O_CREAT, | O_WRONG | O_TRUNC | O_APPEND, 0664);
 	error_file(file_from, file_to, argv);
 
 	nchars = 1024;
