@@ -17,9 +17,9 @@ for (k = '0'; k <= '9'; k++)
 {
 if (i > n && n > k)
 {
-	putchar(i);
-	putchar(n);
 	putchar(k);
+	putchar(n);
+	putchar(i);
 	if (i != '7')
 	{
 		putchar(',');
