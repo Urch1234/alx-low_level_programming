@@ -1,41 +1,41 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - prints numbers from 1 - 100  Fizz Buzz and FizzBuzz
- * Description: Print fizz in place of multiple 3, Buzz in place
- * of multiple 5, FizzBuzz in place of multile of 3 and 5
- * then print rest of the numbers that
- *  didn't in this category.
- * Return: void
- */
+* main - program that prints either number or fizz or buzz or fizzBuzz
+*Return: returns 0
+*/
 
 int main(void)
 {
-	int i;
+	int num = 0;
 
-	for (i = 1; i <= 100; i++)
+	while (num++ < 100)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
-	{
-		printf("FizzBuzz ");
-	} else if (i % 3 == 0)
-	{
-		printf("Fizz ");
-	} else if (i % 5 == 0)
-	{
-		if (i != 100)
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
-			printf("Buzz ")
-		} else
-		{
-			printf("Buzz");
+			printf("FizzBuzz ");
 		}
-	else
-	{
-		printf("%d", i);
+		else if ((num % 3) == 0)
+		{
+			printf("Fizz ");
+		}
+		else if ((num % 5) == 0)
+		{
+			if (num != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+		}
+		else
+		{
+			printf("%d ", num);
+		}
 	}
 	printf("\n");
-	}
+
 	return (0);
 }
