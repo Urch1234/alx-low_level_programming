@@ -2,11 +2,10 @@
 #define MAIN_H
 
 /**
- * main - header filr for the prototypes
+ * main - header file for the prototypes
  * void prototypes (void)
  * int prototypes (int)
  */
-
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
