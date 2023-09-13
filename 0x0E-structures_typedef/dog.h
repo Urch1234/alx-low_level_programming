@@ -1,5 +1,5 @@
-#ifndef STRTYP
-#define STRTYP
+#ifndef STRTYP_H
+#define STRTYP_H
 
 /**
  * struct dog - structure of a dog.
