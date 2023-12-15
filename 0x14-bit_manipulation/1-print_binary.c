@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - This prints out the binary representation of a number
+ * print_binary - This prints the binary representation of a number
  * @n: unsigned long integer.
- * Return: void
+ * Return: Nothing(void)
  */
 
 void print_binary(unsigned long int n)
@@ -15,5 +15,9 @@ void print_binary(unsigned long int n)
 		_putchar((n & 1) + '0');
 	}
 	else
+	{
 		_putchar('0');
+	}
 }
+
+
