@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * error_file - checks if files can be opened
- * @file_from:File from(source file)
- * @file_to: file to(destination file)
+ * @file_from:File from
+ * @file_to: file to
  * @argv: argument vector
  * Return: void
  */
