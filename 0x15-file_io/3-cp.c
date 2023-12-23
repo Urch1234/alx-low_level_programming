@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * error_file - checks if files can be opened
  * @file_from:File from
@@ -15,12 +16,14 @@ void error_file(int file_from, int file_to, char *argv[])
 		dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1]);
 		exit(98);
 	}
+
 	if (file_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: can't write to %s\n", argv[2]);
 		exit(99);
 	}
 }
+
 /**
  * main - check the code for Holberton school students
  * @argc: number of arguments
@@ -49,7 +52,7 @@ int main(int argc, char *argv[])
 	{
 		nchars = read(file_from, buf, 1024);
 		if (nchars == -1)
-			error_fine(-1, 0, argv);
+			error_file(-1, 0, argv);
 		nwr = write(file_to, buf, nchars);
 		if (nwr == -1)
 			error_file(0, -1, argv);
